@@ -1,0 +1,30 @@
+---
+BasedOnStyle: Google
+Standard: Cpp11
+AlignTrailingComments: false
+NamespaceIndentation: All
+DerivePointerAlignment: false
+AlwaysBreakBeforeMultilineStrings: false
+AccessModifierOffset: -2
+SortIncludes: true
+ColumnLimit: 120
+IndentWidth: 4
+PointerAlignment: Right
+AllowAllParametersOfDeclarationOnNextLine: true
+BinPackParameters: false
+BinPackArguments: false
+ReflowComments: false
+SpacesBeforeTrailingComments: 1
+PenaltyBreakComment: 0
+SpacesInContainerLiterals: false
+BreakBeforeBinaryOperators: NonAssignment
+MaxEmptyLinesToKeep: 1
+Cpp11BracedListStyle: false
+---
+Language: ObjC
+ObjCBlockIndentWidth: 4
+ObjCSpaceAfterProperty: true
+ObjCSpaceBeforeProtocolList: true
+---
+Language: Cpp
+---
