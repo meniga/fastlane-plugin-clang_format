@@ -1,3 +1,13 @@
+project_dir = "ExampleApp"
+
+desc %(Run tests:
+  - run-clang-format - to check Objective-c files formatting
+)
 lane :test do
-  clang_format
+  run_clang_format(
+    script_path: "#{project_dir}/clang-format/run-clang-format.py",
+    extensions: "h,m",
+    paths: ["#{project_dir}/ExampleApp", "#{project_dir}/ExampleAppTests"],
+    executable: "#{project_dir}/clang-format/clang-format"
+  )
 end
