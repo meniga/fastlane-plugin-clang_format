@@ -12,9 +12,7 @@ fastlane add_plugin clang_format
 
 ## About clang_format
 
-Format your Objective-C/C/C++ code with clang-format
-
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+Format your C/C++/Java/JavaScript/Objective-C/Protobuf/C code with clang-format
 
 ## Example
 
