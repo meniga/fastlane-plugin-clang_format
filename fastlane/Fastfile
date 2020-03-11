@@ -11,3 +11,13 @@ lane :test do
     executable: "#{project_dir}/clang-format/clang-format"
   )
 end
+
+desc %(Format Objective-C code)
+lane :format do
+  clang_format(
+    clang_format_path: "#{project_dir}/clang-format/clang-format",
+    inplace: true,
+    style: "file",
+    files: ["#{project_dir}/ExampleApp/**.{h,m}"]
+  )
+end

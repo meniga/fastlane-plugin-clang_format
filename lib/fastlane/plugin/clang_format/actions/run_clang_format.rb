@@ -44,28 +44,28 @@ module Fastlane
                                        env_name: 'FL_RUN_CLANG_FORMAT_SCRIPT_PATH',
                                        description: 'Optional, you must specify the path to run-clang-format.py if it is not in the project root directory',
                                        optional: true,
-                                       is_string: true),
+                                       type: String),
           FastlaneCore::ConfigItem.new(key: :extensions,
                                        env_name: 'FL_RUN_CLANG_FORMAT_EXTENSIONS',
                                        description: 'Comma separated list of file extensions (default: c,h,C,H,cpp,hpp,cc,hh,c++,h++,cxx,hxx)',
                                        optional: true,
-                                       is_string: true),
+                                       type: String),
           FastlaneCore::ConfigItem.new(key: :recursive,
                                        env_name: 'FL_RUN_CLANG_FORMAT_RECURSIVE',
                                        description: 'Run recursively over directories',
                                        optional: true,
                                        default_value: true,
-                                       is_string: false),
+                                       type: Boolean),
           FastlaneCore::ConfigItem.new(key: :paths,
                                        env_name: 'FL_RUN_CLANG_FORMAT_PATHS',
                                        description: 'Array of path to check formatting',
                                        optional: false,
-                                       is_string: false),
+                                       type: Array),
           FastlaneCore::ConfigItem.new(key: :executable,
                                        env_name: 'FL_RUN_CLANG_FORMAT_EXECUTABLE',
                                        description: 'Path to the clang-format executable',
                                        optional: false,
-                                       is_string: true)
+                                       type: String)
         ]
       end
 
