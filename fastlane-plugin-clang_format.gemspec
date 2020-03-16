@@ -5,13 +5,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/clang_format/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-clang-format'
+  spec.name          = 'fastlane-plugin-clang_format'
   spec.version       = Fastlane::ClangFormat::VERSION
   spec.author        = 'Meniga'
   spec.email         = 'mobile.dev@meniga.com'
 
   spec.summary       = 'Format your Objective-C/C/C++ code with clang-format'
-  spec.homepage      = "https://github.com/meniga/fastlane-plugin-clang-format"
+  spec.homepage      = "https://github.com/meniga/fastlane-plugin-clang_format"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
