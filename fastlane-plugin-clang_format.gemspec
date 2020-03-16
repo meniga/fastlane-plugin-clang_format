@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.author        = 'Meniga'
   spec.email         = 'mobile.dev@meniga.com'
 
-  spec.summary       = 'Format your Objective-C/C/C++ code with clang-format'
+  spec.summary       = 'Format your C/C++/Java/JavaScript/Objective-C/Protobuf/C code with clang-format'
   spec.homepage      = "https://github.com/meniga/fastlane-plugin-clang_format"
   spec.license       = "MIT"
 
