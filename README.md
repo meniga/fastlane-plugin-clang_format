@@ -1,8 +1,8 @@
 # clang_format plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-clang-format)
-[![Build Status](https://travis-ci.org/meniga/fastlane-plugin-clang-format.svg?branch=master)](https://github.com/meniga/fastlane-plugin-clang-format)
-[![codecov](https://codecov.io/gh/meniga/fastlane-plugin-clang-format/branch/master/graph/badge.svg)](https://codecov.io/gh/meniga/fastlane-plugin-clang-format)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-clang_format)
+[![Build Status](https://travis-ci.org/meniga/fastlane-plugin-clang_format.svg?branch=master)](https://github.com/meniga/fastlane-plugin-clang_format)
+[![codecov](https://codecov.io/gh/meniga/fastlane-plugin-clang_format/branch/master/graph/badge.svg)](https://codecov.io/gh/meniga/fastlane-plugin-clang_format)
 
 ## Getting Started
 
