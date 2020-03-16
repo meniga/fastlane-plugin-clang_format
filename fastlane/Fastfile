@@ -14,10 +14,16 @@ end
 
 desc %(Format Objective-C code)
 lane :format do
+  files = []
+  Dir.chdir("..") do
+    files = Dir.glob("#{project_dir}/**/*.{h,m}")
+  end
+
   clang_format(
     clang_format_path: "#{project_dir}/clang-format/clang-format",
     inplace: true,
     style: "file",
-    files: ["#{project_dir}/ExampleApp/**.{h,m}"]
+    verbose: true,
+    files: files
   )
 end
